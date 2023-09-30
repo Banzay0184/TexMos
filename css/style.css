@@ -150,9 +150,9 @@
 }
 
 .Fo-l h1 {
-    width: 48%;
+    width: 50%;
     position: relative;
-    font-size: 28px;
+    font-size: 42px;
     font-family: MoscowMD;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .Fo-l-lists {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     gap: 48px;
 }
@@ -179,7 +179,7 @@
     align-items: center;
     gap: 12px;
     margin-bottom: 12px;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .Fo-l-lists ul li div {
@@ -191,9 +191,10 @@
 
 .Fo-l .btn {
     margin-top: 48px;
-    width: 172px;
-    height: 40px;
-    font-size: 12px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-family: MoscowDB;
 }
 
 .Formats .container img {
