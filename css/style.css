@@ -1,0 +1,508 @@
+.Hero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Hero-l {
+    gap: 44px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.title-h {
+    display: block;
+    color: #ba0048;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowDB;
+}
+
+.text-h {
+    gap: 32px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.text-h h1 {
+    font-family: MoscowDB;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.text-h p {
+    font-family: MoscowMD;
+}
+
+.btn {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: .2s all ease-out;
+    font-family: MoscowDB;
+    cursor: pointer;
+}
+
+.btn__small {
+    width: 212px;
+    height: 48px;
+}
+
+.btn__Mdsmall {
+    width: 280px;
+    height: 58px;
+}
+
+.btn__red {
+    background-color: #ba0048;
+}
+
+.btn__red:hover {
+    background-color: #6b132d;
+}
+
+.btn__pri {
+    background-color: #3c3849;
+}
+
+.btn__pri:hover {
+    background-color: #ba0048;
+}
+
+
+.btn__pris {
+    background-color: #c9c9c9;
+}
+
+.btn__pris:hover {
+    background-color: #ba0048;
+}
+
+.Hero {
+    margin-bottom: 100px;
+}
+
+.Hero-r {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.Hero-r2 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 450px;
+}
+
+.Hero-r img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Hero-r2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: url("../svg/SVG/linehero.svg") no-repeat left bottom;
+}
+
+/*Advantages*/
+
+.Advantages {
+    margin-bottom: 100px;
+}
+
+.Ad-t {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Ad-t h1 {
+    margin-bottom: 12px;
+    color: #ba0048;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Ad-t p {
+    font-size: 26px;
+}
+
+.Ad-b {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 52px;
+}
+
+.Ad-icon {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+
+}
+
+.line_decor {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+/*.Ad-icon::after {*/
+/*    overflow: hidden;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: -50%;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    content: "";*/
+/*    background: url("../svg/SVG/lin_frame_L_gc.svg") no-repeat left bottom;*/
+/*}*/
+
+.Ad-icon p {
+    text-align: center;
+    width: 45%;
+    font-family: MoscowMD;
+}
+
+svg {
+    width: 100px;
+}
+
+/*Formats*/
+
+.Formats {
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+}
+
+.Fo-l {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Fo-l h1 span {
+    display: block;
+    color: #ba0048;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Fo-l h1 {
+    width: 30%;
+    position: relative;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+
+.Fo-l h1::before {
+    margin-top: 32px;
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../svg/lin_01_decor_h_lev.svg") no-repeat left bottom;
+}
+
+.Fo-l-lists {
+    margin-top: 100px;
+    display: flex;
+    gap: 48px;
+}
+
+.Fo-l-lists ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.Fo-l-lists ul li div {
+    width: 16px;
+    height: 16px;
+    background-color: #ba0048;
+    border-radius: 100%;
+}
+
+.Fo-l .btn {
+    margin-top: 100px;
+}
+
+.Formats .container img {
+    position: absolute;
+    right: 0;
+}
+
+.Formats .container {
+    display: flex;
+    align-items: center;
+}
+
+.Congress {
+    padding: 100px 0;
+}
+
+.Co-text h1 span {
+    display: block;
+    color: #ba0048;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Co-text h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Co-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.Co-text svg {
+    width: 30%;
+}
+
+/*Congress*/
+
+.Co-boxs {
+    margin-top: 100px;
+}
+
+.Co-box {
+    margin-bottom: 150px;
+}
+
+.Co-box-title {
+    color: #ba0048;
+    font-size: 60px;
+    line-height: 56px;
+    font-family: MoscowMD;
+    border-bottom: 1px solid #929292;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+}
+
+.Co-box-l-t div {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.Co-box-l-t div h1 {
+    font-size: 96px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Co-box-l-t div p {
+    position: relative;
+    bottom: -10px;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: MoscowMD;
+}
+
+.Co-box-l-t div p span {
+    top: -5px;
+    position: absolute;
+    font-size: 24px;
+}
+
+.Co-box-l-t-b {
+    color: #ba0048;
+    font-family: MoscowMD;
+    font-size: 28px;
+    line-height: 56px;
+}
+
+.Co-box-l-t-b span {
+    color: #3c3849;
+}
+
+.Co-box-l-m {
+    margin-top: 36px;
+    display: flex;
+    gap: 68px;
+}
+
+.Co-box-l-m-t {
+    width: 350px;
+    font-size: 28px;
+}
+
+.Co-box-l-m li h1 {
+    color: #c2c0c6;
+    font-family: MoscowMD;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.Co-box-l-m li p {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.Co-box-l-m {
+    margin-bottom: 44px;
+}
+
+
+/*???*/
+
+.forms {
+    padding: 100px 0;
+    box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.form-text {
+    text-align: center;
+}
+
+.form-text p {
+    color: #777;
+}
+
+.form-text h1 {
+    color: #ba0048;
+    font-family: MoscowMD;
+    font-size: 28px;
+    line-height: 56px;
+    margin-top: 24px;
+}
+
+.form-text-select {
+    display: flex;
+    justify-content: center;
+}
+
+.form-text-select button {
+    color: #c2c0c6;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.form-text-select button:hover {
+    color: #3c3849;
+}
+
+.form-text-select-button-ac {
+    color: #3c3849;
+}
+
+.red-line {
+    width: 20%;
+    margin: 10px auto 30px;
+}
+
+.form-column {
+    display: flex;
+    justify-content: center;
+}
+
+.form-column img {
+    width: 12%;
+}
+
+.form {
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input {
+    width: 400px;
+    margin: 25px 0;
+    display: block;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.form textarea:focus, input:focus {
+    outline: none;
+}
+
+.form select {
+    width: 400px;
+    display: block;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.form textarea {
+    border: 1px solid #3c3849;
+    width: 100%;
+    height: 180px;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.form button {
+    display: block;
+    margin: 30px auto 50px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(14, 14, 62);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form p {
+    text-align: center;
+}
