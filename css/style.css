@@ -4,7 +4,7 @@
 
 .Hero-l {
     position: relative;
-    max-width: 400px;
+    max-width: 424px;
 }
 
 .Hero-l img {
@@ -21,8 +21,8 @@
 }
 
 .text-h h1 {
-    width: 354px;
-    font-size: 40px;
+    width: 480px;
+    font-size: 54px;
     font-family: MoscowMD;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .text-h p {
-    font-size: 14px;
+    font-size: 18px;
     font-family: MoscowMD;
 }
 
@@ -87,7 +87,7 @@
 
 .Ad-icon {
     position: relative;
-    width: 30%;
+    width: 33%;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -247,7 +247,7 @@
 }
 
 .Co-box-title {
-    color: #ba0048;
+    color: #D00E46;
     font-size: 44px;
     line-height: 56px;
     font-family: MoscowMD;
@@ -431,7 +431,7 @@
 .form p {
     text-align: center;
     margin-top: 50px;
-        width: 780px
+    width: 780px
 }
 
 
