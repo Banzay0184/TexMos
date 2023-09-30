@@ -94,7 +94,7 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-
+    margin: 24px 0;
 }
 
 .line_decor {
@@ -133,7 +133,6 @@
 .Formats {
     background-color: #eaeaea;
     width: 100%;
-    padding: 100px 0;
     position: relative;
 }
 
@@ -147,22 +146,19 @@
 .Fo-l h1 span {
     display: block;
     color: #D00E46;
-    font-size: 48px;
-    line-height: 56px;
     font-family: MoscowMD;
 }
 
 .Fo-l h1 {
-    width: 30%;
+    width: 48%;
     position: relative;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 28px;
     font-family: MoscowMD;
 }
 
 
 .Fo-l h1::before {
-    margin-top: 32px;
+    margin-top: 14px;
     z-index: 2;
     position: absolute;
     display: inline-block;
@@ -173,7 +169,7 @@
 }
 
 .Fo-l-lists {
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
     gap: 48px;
 }
@@ -183,18 +179,21 @@
     align-items: center;
     gap: 12px;
     margin-bottom: 12px;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .Fo-l-lists ul li div {
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     background-color: #D00E46;
     border-radius: 100%;
 }
 
 .Fo-l .btn {
-    margin-top: 100px;
+    margin-top: 48px;
+    width: 172px;
+    height: 40px;
+    font-size: 12px;
 }
 
 .Formats .container img {
@@ -214,15 +213,14 @@
 .Co-text h1 span {
     display: block;
     color: #D00E46;
-    font-size: 48px;
-    line-height: 56px;
     font-family: MoscowMD;
+    font-size: 32px;
+    line-height: 44px;
 }
 
 .Co-text h1 {
     text-align: center;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 16px;
     font-family: MoscowMD;
 }
 
@@ -244,50 +242,46 @@
 }
 
 .Co-box {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .Co-box-title {
     color: #ba0048;
-    font-size: 60px;
+    font-size: 44px;
     line-height: 56px;
     font-family: MoscowMD;
     border-bottom: 1px solid #929292;
     padding-bottom: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
 }
 
 .Co-box-l-t div {
     display: flex;
-    gap: 24px;
-    margin-bottom: 24px;
+    gap: 12px;
+    align-items: center;
 }
 
 .Co-box-l-t div h1 {
-    font-size: 96px;
-    line-height: 56px;
+    font-size: 54px;
     font-family: MoscowMD;
 }
 
 .Co-box-l-t div p {
     position: relative;
     bottom: -10px;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 32px;
     font-family: MoscowMD;
 }
 
 .Co-box-l-t div p span {
-    top: -5px;
     position: absolute;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .Co-box-l-t-b {
     color: #D00E46;
     font-family: MoscowMD;
-    font-size: 28px;
-    line-height: 56px;
+    font-size: 16px;
 }
 
 .Co-box-l-t-b span {
@@ -301,37 +295,42 @@
 }
 
 .Co-box-l-m-t {
-    width: 350px;
-    font-size: 28px;
+    width: 200px;
 }
 
 .Co-box-l-m li h1 {
     color: #c2c0c6;
     font-family: MoscowMD;
-    font-size: 16px;
-    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .Co-box-l-m li p {
-    font-size: 20px;
-    margin-bottom: 32px;
+    font-size: 12px;
+    margin-bottom: 24px;
 }
 
 .Co-box-l-m {
-    margin-bottom: 44px;
+    margin-bottom: 24px;
 }
 
 
 /*???*/
 
 .forms {
-    padding: 100px 0;
+    padding: 1px 0;
     box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px -12px 8px -4px rgba(0, 0, 0, 0.3);
 }
 
 .form-text {
+    margin-bottom: 24px;
     text-align: center;
 }
 
@@ -377,21 +376,25 @@
 }
 
 .form-column img {
-    width: 12%;
+    width: 163px;
 }
 
 .form {
-    flex-grow: 1;
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25px;
+    padding: 0px 100px 0px 100px;
 }
 
 .form-flex {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .form input {
-    width: 400px;
+    width: 350px;
     margin: 25px 0;
     display: block;
     border: none;
@@ -405,7 +408,7 @@
 }
 
 .form select {
-    width: 400px;
+    width: 350px;
     display: block;
     border: none;
     font-size: 20px;
@@ -416,21 +419,24 @@
 .form textarea {
     border: 1px solid #3c3849;
     width: 100%;
-    height: 180px;
+    height: 226px;
     font-size: 18px;
     border-radius: 15px;
     padding: 24px;
+    margin-bottom: 84px;
 }
 
 
 .form p {
     text-align: center;
+    margin-top: 50px;
+        width: 780px
 }
 
 
 .btn__small {
-    width: 180px;
-    height: 36px;
+    width: 214px;
+    height: 50px;
 }
 
 .btn__Mdsmall {
@@ -474,5 +480,5 @@
     transition: .2s all ease-out;
     font-family: MoscowDB;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16px;
 }
