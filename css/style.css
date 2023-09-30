@@ -1,127 +1,60 @@
 .Hero {
     display: flex;
-    justify-content: flex-start;
 }
 
 .Hero-l {
-    gap: 44px;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    padding-top: 50px;
+    position: relative;
+    max-width: 400px;
 }
 
-.title-h {
-    display: block;
-    color: #ba0048;
-    font-size: 48px;
-    line-height: 56px;
-    font-family: MoscowDB;
+.Hero-l img {
+    height: 300px;
+    position: absolute;
+    top: -24px;
+    left: -120px;
 }
 
 .text-h {
-    gap: 32px;
     display: flex;
-    width: 80%;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
 }
-
 
 .text-h h1 {
-    font-family: MoscowDB;
-    font-size: 48px;
-    line-height: 56px;
-}
-
-.text-h p {
+    width: 354px;
+    font-size: 40px;
     font-family: MoscowMD;
 }
 
-.btn {
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    border-radius: 8px;
-    transition: .2s all ease-out;
-    font-family: MoscowDB;
-    cursor: pointer;
+.title-h {
+    color: #D00E46;
+    font-family: MoscowMD;
+    display: block;
 }
 
-.btn__small {
-    width: 212px;
-    height: 48px;
-}
-
-.btn__Mdsmall {
-    width: 280px;
-    height: 58px;
-}
-
-.btn__red {
-    background-color: #ba0048;
-}
-
-.btn__red:hover {
-    background-color: #6b132d;
-}
-
-.btn__pri {
-    background-color: #3c3849;
-}
-
-.btn__pri:hover {
-    background-color: #ba0048;
-}
-
-
-.btn__pris {
-    background-color: #c9c9c9;
-}
-
-.btn__pris:hover {
-    background-color: #ba0048;
-}
-
-.Hero {
-    margin-bottom: 100px;
+.text-h p {
+    font-size: 14px;
+    font-family: MoscowMD;
 }
 
 .Hero-r {
-    position: absolute;
     right: 0;
-    top: 0;
-    height: 100%;
-    width: 50%;
-}
-
-.Hero-r2 {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    height: 450px;
-}
-
-.Hero-r img {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.Hero-r2::before {
-    content: "";
-    display: block;
     position: absolute;
-    left: -1px;
+    top: 0;
+}
+
+.hero-img {
+    object-fit: cover;
+    height: 400px;
+    width: 624px;
+}
+
+.after {
     bottom: -1px;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background: url("../svg/SVG/linehero.svg") no-repeat left bottom;
+    left: -1px;
+    position: absolute;
+    width: 280px;
+    z-index: 1;
 }
 
 /*Advantages*/
@@ -132,19 +65,17 @@
 
 .Ad-t {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .Ad-t h1 {
     margin-bottom: 12px;
-    color: #ba0048;
-    font-size: 48px;
-    line-height: 56px;
+    color: #D00E46;
+    font-size: 32px;
     font-family: MoscowMD;
 }
 
 .Ad-t p {
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .Ad-b {
@@ -152,18 +83,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 52px;
 }
 
 .Ad-icon {
     position: relative;
     width: 30%;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 12px;
 
 }
 
@@ -189,12 +119,13 @@
 
 .Ad-icon p {
     text-align: center;
+    font-size: 12px;
     width: 45%;
     font-family: MoscowMD;
 }
 
-svg {
-    width: 100px;
+.Ad-icon svg {
+    width: 80px;
 }
 
 /*Formats*/
@@ -215,7 +146,7 @@ svg {
 
 .Fo-l h1 span {
     display: block;
-    color: #ba0048;
+    color: #D00E46;
     font-size: 48px;
     line-height: 56px;
     font-family: MoscowMD;
@@ -258,7 +189,7 @@ svg {
 .Fo-l-lists ul li div {
     width: 16px;
     height: 16px;
-    background-color: #ba0048;
+    background-color: #D00E46;
     border-radius: 100%;
 }
 
@@ -282,7 +213,7 @@ svg {
 
 .Co-text h1 span {
     display: block;
-    color: #ba0048;
+    color: #D00E46;
     font-size: 48px;
     line-height: 56px;
     font-family: MoscowMD;
@@ -353,7 +284,7 @@ svg {
 }
 
 .Co-box-l-t-b {
-    color: #ba0048;
+    color: #D00E46;
     font-family: MoscowMD;
     font-size: 28px;
     line-height: 56px;
@@ -409,7 +340,7 @@ svg {
 }
 
 .form-text h1 {
-    color: #ba0048;
+    color: #D00E46;
     font-family: MoscowMD;
     font-size: 28px;
     line-height: 56px;
@@ -491,18 +422,57 @@ svg {
     padding: 24px;
 }
 
-.form button {
-    display: block;
-    margin: 30px auto 50px;
-    border: none;
-    padding: 10px 30px;
-    font-size: 18px;
-    background-color: rgb(14, 14, 62);
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-}
 
 .form p {
     text-align: center;
+}
+
+
+.btn__small {
+    width: 180px;
+    height: 36px;
+}
+
+.btn__Mdsmall {
+    width: 280px;
+    height: 58px;
+}
+
+.btn__red {
+    background-color: #D00E46;
+}
+
+.btn__red:hover {
+    background-color: #6b132d;
+}
+
+.btn__pri {
+    background-color: #3c3849;
+}
+
+.btn__pri:hover {
+    background-color: #D00E46;
+}
+
+
+.btn__pris {
+    background-color: #c9c9c9;
+}
+
+.btn__pris:hover {
+    background-color: #D00E46;
+}
+
+
+.btn {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: .2s all ease-out;
+    font-family: MoscowDB;
+    cursor: pointer;
+    font-size: 12px;
 }
