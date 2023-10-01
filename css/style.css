@@ -303,7 +303,7 @@
 }
 
 .Co-box-l-m li h1 {
-    color: #c2c0c6;
+    color: #3c3849;
     font-family: MoscowMD;
     font-size: 12px;
     letter-spacing: -1px;
@@ -345,7 +345,7 @@
 }
 
 .form-text p {
-    color: #777;
+    color: #3c3849;
 }
 
 .form-text h1 {
@@ -362,7 +362,7 @@
 }
 
 .form-text-select button {
-    color: #c2c0c6;
+    color: #3c3849;
     font-size: 22px;
     margin: 10px;
 }
@@ -410,7 +410,7 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #3c3849;
 }
 
 .form input:focus {
@@ -427,7 +427,7 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #3c3849;
 }
 
 .form textarea:focus {
