@@ -412,7 +412,8 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #eaeaea;
+    color: #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
 }
 
 .form input:focus {
@@ -429,7 +430,9 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #C9C9C9;
+    color: #C9C9C9;
+
 }
 
 .form textarea:focus {
@@ -440,14 +443,23 @@
     border-bottom: 1px solid #D00E46;
 }
 
+.form input::placeholder {
+    color: #C9C9C9;
+}
+
 .form textarea {
-    border: 1px solid #eaeaea;
+    border: 1px solid #C9C9C9;
+    color: #C9C9C9;
     width: 100%;
     height: 226px;
     font-size: 18px;
     border-radius: 15px;
     padding: 24px;
     margin-bottom: 84px;
+}
+
+.form textarea::placeholder {
+    color: #C9C9C9;
 }
 
 
