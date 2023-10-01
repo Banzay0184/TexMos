@@ -89,7 +89,7 @@
 
 .Ad-icon {
     position: relative;
-    width: 31%;
+    width: 370px;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@
     overflow: hidden;
     position: absolute;
     top: 0;
-    width: 275px;
+    width: 300px;
     content: "";
 }
 
@@ -121,7 +121,7 @@
 .Ad-icon p {
     text-align: center;
     font-size: 18px;
-    width: 80%;
+    width: 200px;
     font-family: MoscowMD;
 }
 
