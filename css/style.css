@@ -410,7 +410,7 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #3c3849;
+    border-bottom: 1px solid #c9c9c9;
 }
 
 .form input:focus {
@@ -427,7 +427,7 @@
     border: none;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 1px solid #3c3849;
+    border-bottom: 1px solid #c9c9c9;
 }
 
 .form textarea:focus {
