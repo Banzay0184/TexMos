@@ -262,7 +262,7 @@
     display: flex;
     gap: 12px;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .Co-box-l-t div h1 {
@@ -305,7 +305,7 @@
 }
 
 .Co-box-l-m li h1 {
-    color: #3c3849;
+    color: #C9C9C9;
     font-family: MoscowMD;
     font-size: 12px;
     letter-spacing: -1px;
