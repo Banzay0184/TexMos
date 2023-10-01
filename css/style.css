@@ -266,7 +266,7 @@
 }
 
 .Co-box-l-t div h1 {
-    font-size: 54px;
+    font-size: 70px;
     font-family: MoscowMD;
 }
 
@@ -517,4 +517,12 @@
     font-family: MoscowDB;
     cursor: pointer;
     font-size: 20px;
+}
+
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url('../svg/play_v.svg') no-repeat center right;
 }
