@@ -353,7 +353,7 @@
 .form-text h1 {
     color: #D00E46;
     font-family: MoscowMD;
-    font-size: 28px;
+    font-size: 44px;
     line-height: 56px;
     margin-top: 24px;
 }
@@ -363,10 +363,16 @@
     justify-content: center;
 }
 
-.form-text-select button {
-    color: #3c3849;
+.form-text-select a {
+    color: #C9C9C9;
     font-size: 22px;
     margin: 10px;
+    transition: .2s all ease-out;
+}
+
+.form-text-select a:hover {
+    color: #3c3849;
+    font-family: MoscowDB;
 }
 
 .form-text-select button:hover {
